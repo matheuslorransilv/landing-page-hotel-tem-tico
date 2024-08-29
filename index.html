@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="shortcut icon" href="./assets/hp-favicon.svg" type="image/x-icon">
+  <title>A toca | Hotelaria Mágica</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav>
+      <div class="nav__bar">
+        <div class="logo">
+          <a href="#"><img src="./assets/atoca-logo.svg" alt="a toca" /></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Página Inicial</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#service">Serviços</a></li>
+        <li><a href="#explore">Explorar</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+      <button class="btn nav__btn">Reserve Agora</button>
+    </nav>
+    <div class="section__container header__container" id="home">
+      <p>Mágico | Aconchegante | Amigável</p>
+      <h1>Viva a Magia: Onde Cada Estadia é uma Aventura Encantada.</h1>
+    </div>
+  </header>
+
+  <section class="section__container booking__container">
+    <form action="/" class="booking__form">
+      <div class="input__group">
+        <span><i class="ri-calendar-2-fill"></i></span>
+        <div>
+          <label for="check-in">CHECK-IN</label>
+        </div>
+      </div>
+      <div class="input__group">
+        <span><i class="ri-calendar-2-fill"></i></span>
+        <div>
+          <label for="check-out">CHECK-OUT</label>
+        </div>
+      </div>
+      <div class="input__group">
+        <span><i class="ri-user-fill"></i></span>
+        <div>
+          <label for="guest">HÓSPEDES</label>
+        </div>
+      </div>
+      <div class="input__group input__btn">
+        <button class="btn">RESERVAR</button>
+      </div>
+    </form>
+  </section>
+
+  <section class="section__container about__container" id="about">
+    <div class="about__image">
+      <img src="./assets/sobre.jpg" alt="sobre" />
+    </div>
+    <div class="about__content">
+      <p class="section__subheader">SOBRE NÓS</p>
+      <h2 class="section__header">Viva a Mágia de Um Lugar Encatador.</h2>
+      <p class="section__description">
+        Com foco em acomodações de qualidade, experiências personalizadas e um processo de reserva simples e intuitivo, nossa plataforma é dedicada a garantir que cada bruxo e bruxa embarque em sua jornada mágica com confiança e entusiasmo
+      </p>
+      <div class="about__btn">
+        <button class="btn">Leia Mais</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__container room__container">
+    <p class="section__subheader">NOSSOS QUARTOS</p>
+    <h2 class="section__header">A experiência de descanso mais memorável começa aqui.</h2>
+    <div class="room__grid">
+      <div class="room__card">
+        <div class="room__card__image">
+          <img src="./assets/quarto-2.jpg" alt="quarto" />
+        </div>
+        <div class="room__card__details">
+          <h4>Suíte Sala Precisa</h4>
+          <p>
+            Inspirada no quarto mágico que se adapta a qualquer necessidade do visitante.
+          </p>
+          <h5>A partir de <span>R$299/noite</span></h5>
+          <button class="btn">Reserve Agora</button>
+        </div>
+      </div>
+      <div class="room__card">
+        <div class="room__card__image">
+          <img src="./assets/quarto-1.jpg" alt="quarto" />
+        </div>
+        <div class="room__card__details">
+          <h4>Refúgio de Gryffindor</h4>
+          <p>
+            Um quarto temático para os bravos e aventureiros, cheio de detalhes da casa Gryffindor.
+          </p>
+          <h5>A partir de <span>R$199/noite</span></h5>
+          <button class="btn">Reserve Agora</button>
+        </div>
+      </div>
+      <div class="room__card">
+        <div class="room__card__image">
+          <img src="./assets/quarto-3.jpg" alt="quarto" />
+        </div>
+        <div class="room__card__details">
+          <h4>Alcova da Floresta Proibida</h4>
+          <p>
+            Um quarto misterioso com decoração inspirada na mágica e encantadora Floresta Proibida.
+          </p>
+          <h5>A partir de <span>R$249/noite</span></h5>
+          <button class="btn">Reserve Agora</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="service" id="service">
+    <div class="section__container service__container">
+      <div class="service__content">
+        <p class="section__subheader">SERVIÇOS</p>
+        <h2 class="section__header">Serviços Encantados para Todos os Seus Desejos</h2>
+        <ul class="service__list">
+          <li>
+            <span><img src="./assets/segurança.svg" alt="varinha" width="40px" height="40px"></span>
+            Ambiente seguro e monitorado
+          </li>
+          <li>
+            <span><img src="./assets/serviço-de-quarto.svg" alt="serviço de quarto" width="40px" height="40px"></span>
+            Serviço de quarto 24 horas
+          </li>
+          <li>
+            <span><img src="./assets/conferência.svg" alt="sala de conferência" width="40px" height="40px"></span>
+            Sala de conferência
+          </li>
+          <li>
+            <span><img src="./assets/suporte.svg" alt="guia turísticos" width="40px" height="40px"></span>
+            Suporte de guia turísticos
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__container banner__container">
+    <div class="banner__content">
+      <div class="banner__card" class="card__room">
+        <h4>25+</h4>
+        <p>Quartos Disponíveis</p>
+      </div>
+      <div class="banner__card" class="card__reservation">
+        <h4>350+</h4>
+        <p>Reservas Concluídas</p>
+      </div>
+      <div class="banner__card" class="card__avaliations">
+        <h4>600+</h4>
+        <p>Avaliações Positivas</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="explore" id="explore">
+    <p class="section__subheader">EXPLORAR</p>
+    <h2 class="section__header">O que temos de novos para hoje?</h2>
+    <div class="explore__bg">
+      <div class="explore__content">
+        <p class="section__description">10 MAR 2024</p>
+        <h4>Partida de Quadribol</h4>
+        <button class="btn">Continue</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <div class="logo">
+          <a href="#home"><img src="assets/./atoca-logo.svg" alt="logo" /></a>
+        </div>
+        <p class="section__description">
+          Bem-vindos <strong>A Toca</strong>, onde a magia de Harry Potter ganha vida. Hospede-se em suítes inspiradas no mundo mágico de Harry Potter. Na Toca, cada estadia é uma experiência encantadora.
+        </p>
+        <button class="btn">Reserve Agora</button>
+      </div>
+      <div class="footer__col">
+        <h4>LINKS RÁPIDOS</h4>
+        <ul class="footer__links">
+          <li><a href="#">Navegue por Destinos</a></li>
+          <li><a href="#">Ofertas e Pacotes Especiais</a></li>
+          <li><a href="#">Tipos de Quartos e Comodidades</a></li>
+          <li><a href="#">Avaliações e Comentários dos Clientes</a></li>
+          <li><a href="#">Dicas e Guias de Viagem</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>NOSSOS SERVIÇOS</h4>
+        <ul class="footer__links">
+          <li><a href="#">Assistentes Disponíveis </a></li>
+          <li><a href="#">Reserva Flexíveis</a></li>
+          <li><a href="#">Transfer do Aeroporto</a></li>
+          <li><a href="#">Bem Estar e Lazer</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>ENTRE EM CONTATO</h4>
+        <ul class="footer__links">
+          <li><a href="#">hotel.atoca@contato.com</a></li>
+        </ul>
+        <div class="footer__socials">
+          <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>
+          <a href="#"><img src="assets/instagram.png" alt="instagram" /></a>
+          <a href="#"><img src="assets/youtube.png" alt="youtube" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Matheus Lorran. Alguns direitos reservados.
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
